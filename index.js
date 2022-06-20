@@ -1,4 +1,4 @@
-let seleccionUsuario = parseInt(prompt("¿Que kit quiere llevar? \n 1.Kit Razer \n 2.Kit Logitech \n 3.Kit HyperX \n 4.Kit Red-dragon"))
+let seleccionUsuario = parseInt(prompt("¿Que kit quiere llevar? \n 1.Kit Razer $12000 \n 2.Kit Logitech $9000 \n 3.Kit HyperX $8000\n 4.Kit Red-dragon $5000"))
 
 if (seleccionUsuario === 1){
     alert("Usted eligio Kit Razer")
