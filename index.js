@@ -1,3 +1,19 @@
+function verificacionEdad(edad) {
+    if (edad => 18) {
+    return true
+    } else if (edad < 18) {
+    return confirm('¿Tienes permiso de tus padres?')
+    }
+    }
+    
+    let edad = prompt('¿Qué edad tienes?', 18)
+    
+    if ( verificacionEdad(edad) ) {
+        alert( 'Acceso otorgado' )
+    } else {
+        alert( 'Acceso denegado' )
+    }
+
 let seleccionUsuario = parseInt(prompt("¿Que kit quiere llevar? \n 1.Kit Razer $12000 \n 2.Kit Logitech $9000 \n 3.Kit HyperX $8000\n 4.Kit Red-dragon $5000"))
 
 if (seleccionUsuario === 1){
