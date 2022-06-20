@@ -19,7 +19,7 @@ for(let i = 1; i <= producto; i++) {
 }
 let total = precioProducto
 alert("El total de su compra es: $" + total)
-if((total >=5000) && (total <=10000)) {
+if((total >5000) && (total <=10000)) {
     alert("Su envio sera gratuito")
 } else if (total <=5000) {
     alert ("El costo de envio es $500")
