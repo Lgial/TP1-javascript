@@ -41,3 +41,18 @@ if((total >5000) && (total <=10000)) {
     alert ("El costo de envio es $500")
 }
 
+class Kits {
+    constructor(nombre, precio) {
+    this.nombre = nombre.toUpperCase();
+    this.precio = parseFloat(precio);
+    this.vendido = false;
+    }
+    vender() {
+    this.vendido = true;
+    }
+}
+const producto1 = new Kits("Kit Razer", "12000");
+const producto2 = new Kits("Kit Logitech", "9000");
+const producto3 = new Kits("Kit HyperX", "8000");
+const producto4 = new Kits("Kit Red-dragon", "5000");
+producto1.vender();
