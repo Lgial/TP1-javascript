@@ -51,8 +51,13 @@ class Kits {
     this.vendido = true;
     }
 }
-const producto1 = new Kits("Kit Razer", "12000");
-const producto2 = new Kits("Kit Logitech", "9000");
-const producto3 = new Kits("Kit HyperX", "8000");
-const producto4 = new Kits("Kit Red-dragon", "5000");
-producto1.vender();
+const productos = []
+productos.push(new Kits("Kit Razer", "12000"))
+productos.push(new Kits("Kit Logitech", "9000"))
+productos.push(new Kits("Kit HyperX", "8000"))
+productos.push(new Kits("Kit Red-dragon", "5000"))
+for (const producto of productos) {
+    producto.vender()
+    console.log(productos)
+}
+
