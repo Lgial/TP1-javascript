@@ -41,6 +41,44 @@ if((total >5000) && (total <=10000)) {
     alert ("El costo de envio es $500")
 }
 
+const listaProductos = [
+    {
+        id:1,
+        nombre:"Kit razer",
+        precioCompra: "$6000",
+        precioVenta: "$12000",
+        cantidad: "5",
+    },
+    {
+        id:1,
+        nombre:"Kit Logitech",
+        precioCompra: "$4500",
+        precioVenta: "$9000",
+        cantidad: "5",
+    },
+    {
+        id:1,
+        nombre:"Kit HyperX",
+        precioCompra: "$4000",
+        precioVenta: "$8000",
+        cantidad: "5",
+    },
+    {
+        id:1,
+        nombre:"Kit Red-dragon",
+        precioCompra: "$3000",
+        precioVenta: "$5000",
+        cantidad: "5",
+    },
+]
+
+for (producto of listaProductos){
+    console.log(producto.nombre);
+    console.log(producto.precioVenta);
+  }
+
+  // OTRO EJEMPLO
+/*
 class Kits {
     constructor(nombre, precio) {
     this.nombre = nombre.toUpperCase();
@@ -60,4 +98,4 @@ for (const producto of productos) {
     producto.vender()
     console.log(productos)
 }
-
+*/
